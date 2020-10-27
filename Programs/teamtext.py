@@ -1,13 +1,9 @@
+file = open("teams.txt", "w")
 
+club = ('test', 'Chrome', 'Atlas', 'Whipsnakes', 'Archers', 'Chaos')
+for i in range (1,6):
+    file.seek(0)
+    newline = club[i] + " Lacrosse club /n "
+    file.write(newline)
 
-file = open("filename.txt", "r")
-
-outfile = ""
-
-for line in range(1, 6):
-    if line == 1 or line == 4
-        outfile += file.readline()
-    else:
-        file.readline()
-print(outfile)
-file.close()
+file.close()    
