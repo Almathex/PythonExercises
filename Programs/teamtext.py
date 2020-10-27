@@ -7,3 +7,12 @@ for i in range (1,6):
     file.write(newline)
 
 file.close()    
+
+file = open("teams.txt", "r")
+
+print(file.readline())
+file.readline()
+file.readline()
+print(file.readline())
+
+file.close()
