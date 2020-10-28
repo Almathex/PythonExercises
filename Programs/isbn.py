@@ -12,8 +12,3 @@ def find_isbn(string_isbn):
         x += 1
     digit = 10 - (digit13 % 10) 
     return digit
-
-if __name__ == '__main__':
-    string_isbn = str(input("Please enter isbn: " ))
-    lastdigit = find_isbn(string_isbn)
-    print(string_isbn + str(lastdigit))               
