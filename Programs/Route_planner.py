@@ -1,4 +1,4 @@
-peaksint = [0, 8, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]
+peaks = [0, 8, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]
 
 
 def route(list_1):
@@ -29,6 +29,6 @@ def noreps(list_1):
     return ideal
 
 
-answer = route(peaksint)
+answer = route(peaks)
 answer2 = noreps(answer)
 print(answer2)
